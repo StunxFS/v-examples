@@ -10,3 +10,7 @@ To run the examples, from a console execute: `v run run_examples.vsh`.
 
 Sure, as long as you format your code file with: `v fmt -w <my-file.v>`. Any pull request is welcome :).
 
+## Maintainer and contributors
+
+* StunxFS
+
