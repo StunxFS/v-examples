@@ -2,7 +2,7 @@ module main
 
 struct SimpleStruct {
 pub:
-	field1	int
+	field1 int
 }
 
 fn (ss SimpleStruct) field1_check() bool {
@@ -11,6 +11,5 @@ fn (ss SimpleStruct) field1_check() bool {
 
 fn main() {
 	c := SimpleStruct{150}
-	println("SimpleStruct.field1_check: " + c.field1_check().str())
+	println('SimpleStruct.field1_check: ' + c.field1_check().str())
 }
-
